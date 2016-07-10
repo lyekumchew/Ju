@@ -6,6 +6,7 @@ Simplest theme for Typecho by [ZZOMAN](https://github.com/reumia/hexo-theme-zzom
 - From Hexo transplanted to Typecho.
 
 # Require plugins
+
 - Smilies
 - install from [羽中漫步](http://www.jzwalk.com/archives/net/smilies-for-typecho) or [Github](https://github.com/jzwalk/Smilies/)
 
