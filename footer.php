@@ -4,7 +4,7 @@
 
 	<li class="widget widget-tag">
 		<div class="widget-wrap">
-		<h3 class="widget-title">Tags</h3>
+		<h3 class="widget-title">Site</h3>
 		<div class="widget-body">
 		<ul class="tag-list">
 			<li class="tag-list-item">
