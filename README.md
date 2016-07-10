@@ -7,8 +7,8 @@ Simplest theme for Typecho by [ZZOMAN](https://github.com/reumia/hexo-theme-zzom
 
 # Require plugins
 
-- Smilies
-- install from [羽中漫步](http://www.jzwalk.com/archives/net/smilies-for-typecho) or [Github](https://github.com/jzwalk/Smilies/)
+1. Smilies
+2. install from [羽中漫步](http://www.jzwalk.com/archives/net/smilies-for-typecho) or [Github](https://github.com/jzwalk/Smilies/)
 
 # Preview
 ![template preview](https://raw.githubusercontent.com/lyekumchew/Ju/master/examples.png "Ju template preview")
