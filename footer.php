@@ -6,7 +6,14 @@
 		<div class="widget-wrap">
 		<h3 class="widget-title">Tags</h3>
 		<div class="widget-body">
-		<ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="http://dev.zzoman.com/tags/WDRL/">WDRL</a><span class="tag-list-count">10</span></li><li class="tag-list-item"><a class="tag-list-link" href="http://dev.zzoman.com/tags/facebook-API/">facebook API</a><span class="tag-list-count">1</span></li></ul>
+		<ul class="tag-list">
+			<li class="tag-list-item">
+				<a class="tag-list-link" href="http://note.qiuri.org">NOTE</a>
+			</li>
+			<li class="tag-list-item">
+				<a class="tag-list-link" href="http://wget.kim">WGET.KIM</a>
+			</li>
+		</ul>
 		</div>
 		</div>
 	</li>
