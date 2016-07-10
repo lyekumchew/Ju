@@ -1,0 +1,228 @@
+body {
+  background: #f7f7f7;
+}
+
+.position {
+  top: 50%;
+  left: 50%;
+  margin: -43px -40px;
+}
+
+.size {
+  -webkit-transform: scale(2, 2);
+          transform: scale(2, 2);
+}
+
+.dinosaur {
+  position: absolute;
+  width: 80px;
+  height: 86px;
+}
+.dinosaur .head .face:before, .dinosaur .head .face:after, .dinosaur .head .chin:before, .dinosaur .head .chin:after, .dinosaur .body .neck:before, .dinosaur .body .neck:after, .dinosaur .body .breast:before, .dinosaur .body .breast:after, .dinosaur .body .belly:before, .dinosaur .body .belly:after, .dinosaur .body:after, .dinosaur .hand:before, .dinosaur .hand:after, .dinosaur .tail:before, .dinosaur .tail:after, .dinosaur .foot .left:before, .dinosaur .foot .left .leg:before, .dinosaur .foot .left .leg:after, .dinosaur .foot .left:after, .dinosaur .foot .right:before, .dinosaur .foot .right .leg:before, .dinosaur .foot .right .leg:after, .dinosaur .foot .right:after {
+  display: block;
+  position: relative;
+  background: #535353;
+  content: "";
+}
+.dinosaur .head {
+  position: absolute;
+  width: 40px;
+  height: 30px;
+  top: 0;
+  right: 0;
+}
+.dinosaur .head .face {
+  position: relative;
+}
+.dinosaur .head .face:before {
+  left: 4px;
+  width: 32px;
+  height: 4px;
+}
+.dinosaur .head .face:after {
+  left: 0;
+  width: 40px;
+  height: 18px;
+}
+.dinosaur .head .eye {
+  position: absolute;
+  top: 6px;
+  left: 8px;
+  width: 4px;
+  height: 4px;
+  background: #fff;
+  z-index: 1;
+}
+.dinosaur .head .chin:before {
+  left: 0;
+  width: 20px;
+  height: 4px;
+}
+.dinosaur .head .chin:after {
+  left: 0;
+  width: 32px;
+  height: 4px;
+}
+.dinosaur .body {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  width: 36px;
+  height: 40px;
+}
+.dinosaur .body .neck:before {
+  left: 16px;
+  width: 20px;
+  height: 4px;
+}
+.dinosaur .body .neck:after {
+  left: 10px;
+  width: 26px;
+  height: 4px;
+}
+.dinosaur .body .breast:before {
+  left: 4px;
+  width: 32px;
+  height: 4px;
+}
+.dinosaur .body .breast:after {
+  left: 0;
+  width: 36px;
+  height: 14px;
+}
+.dinosaur .body .belly:before {
+  left: 0;
+  width: 32px;
+  height: 6px;
+}
+.dinosaur .body .belly:after {
+  left: 0;
+  width: 28px;
+  height: 4px;
+}
+.dinosaur .body:after {
+  left: 0;
+  width: 24px;
+  height: 4px;
+}
+.dinosaur .hand {
+  position: absolute;
+  top: 38px;
+  right: 16px;
+  width: 8px;
+  height: 8px;
+}
+.dinosaur .hand:before {
+  left: 0;
+  width: 8px;
+  height: 4px;
+}
+.dinosaur .hand:after {
+  left: 4px;
+  width: 4px;
+  height: 4px;
+}
+.dinosaur .tail {
+  position: absolute;
+  bottom: 16px;
+  right: 60px;
+  width: 20px;
+  height: 40px;
+}
+.dinosaur .tail:before {
+  float: left;
+  width: 4px;
+  height: 24px;
+}
+.dinosaur .tail .inner {
+  float: left;
+  position: relative;
+  top: 12px;
+  margin: 0 4px;
+  width: 4px;
+  height: 20px;
+  background: #535353;
+}
+.dinosaur .tail .inner:before {
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  width: 4px;
+  height: 20px;
+  content: "";
+  background: #535353;
+}
+.dinosaur .tail .inner:after {
+  position: absolute;
+  top: 4px;
+  right: -4px;
+  width: 4px;
+  height: 20px;
+  content: "";
+  background: #535353;
+}
+.dinosaur .tail:after {
+  float: left;
+  top: 16px;
+  width: 4px;
+  height: 24px;
+}
+.dinosaur .foot {
+  position: absolute;
+  width: 28px;
+  height: 16px;
+  bottom: 0;
+  left: 20px;
+}
+.dinosaur .foot .left {
+  position: absolute;
+  left: 16px;
+  width: 12px;
+  height: 16px;
+}
+.dinosaur .foot .left:before {
+  left: 0;
+  width: 8px;
+  height: 4px;
+}
+.dinosaur .foot .left .leg:before {
+  left: 4px;
+  width: 4px;
+  height: 4px;
+}
+.dinosaur .foot .left .leg:after {
+  left: 4px;
+  width: 4px;
+  height: 4px;
+}
+.dinosaur .foot .left:after {
+  left: 4px;
+  width: 8px;
+  height: 4px;
+}
+.dinosaur .foot .right {
+  position: absolute;
+  left: 0;
+  width: 12px;
+  height: 16px;
+}
+.dinosaur .foot .right:before {
+  left: 0;
+  width: 12px;
+  height: 4px;
+}
+.dinosaur .foot .right .leg:before {
+  left: 0;
+  width: 8px;
+  height: 4px;
+}
+.dinosaur .foot .right .leg:after {
+  left: 0;
+  width: 4px;
+  height: 4px;
+}
+.dinosaur .foot .right:after {
+  left: 0;
+  width: 8px;
+  height: 4px;
+}
