@@ -158,6 +158,10 @@ button {
   .article {
     margin: 40px 0;
   }
+  .global-width {
+	max-width: 50%
+  }
+
 }
 .article-header,
 .article-header a {
@@ -716,7 +720,6 @@ pre .javascript .function {
   position: relative;
   margin: 0 auto;
   width: 100%;
-  max-width: 600px;
   margin: 0 auto;
 }
 .text-capitalize {

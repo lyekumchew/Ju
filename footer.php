@@ -46,7 +46,7 @@
             <address>
                 &copy; <?php echo date('Y'); ?> AUTUMN.
                 <br>
-                Powered by <a href="http://typecho.org/">Typecho</a>. Theme by <a href="https://qiuri.org/go/Ju/">Github</a>
+                Powered by <a href="http://typecho.org/">Typecho</a>. Theme by <a href="https://qiuri.org/go/Ju/">Ju</a>
             </address>
   </div>
 </footer>
