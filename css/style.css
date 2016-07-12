@@ -130,7 +130,7 @@ button {
 }
 @media screen and (min-width: 700px) {
   .archive-article .archive-article-inner {
-    height: 200px;
+    padding-bottom: 91%;
   }
 }
 .archive-article .archive-article-inner .archive-article-header {
@@ -159,7 +159,8 @@ button {
     margin: 40px 0;
   }
   .global-width {
-	max-width: 50%
+	max-width: 40%;
+  min-width: 600px;
   }
 
 }
