@@ -52,6 +52,7 @@ button {
 }
 .site-body {
   position: relative;
+  font-family: "Microsoft Yahei", "微软雅黑", "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 /*  z-index: 10; */
 }
 .archives-wrap {
@@ -936,6 +937,7 @@ pre .javascript .function {
 .comment-author .avatar {
   float: left;
   margin-right: 10px;
+  border-radius: 100px;
 }
 
 .comment-author cite {
@@ -990,12 +992,16 @@ pre .javascript .function {
 #emoji img {
   float: left;
   padding-bottom: 10px;
+  width: 1.5em;
+  height: 100%;
 }
 
 .comment-content p img {
   max-width: 100%;
   display: inline;
   margin: 0;
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 /* PageNav */
@@ -1029,4 +1035,18 @@ pre .javascript .function {
 .page-navigator .current a {
   background-color: #ccc;
   color: #fff;
+}
+
+/* Friends */
+
+.friends li {
+  border: 2px solid #e1e1e1;
+  zoom: 1;
+  list-style: none;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.friends li a {
+  text-decoration:none;
 }
